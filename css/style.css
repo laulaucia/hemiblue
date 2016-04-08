@@ -27,11 +27,24 @@ p {
   #index-banner .section {
     top: 10%;
   }
+  #logo {
+    width: 40%;
+    margin-top: -120px;
+  }
+  .tagline{
+  font-size: 1.7em;
+  }
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+  }
+  #logo {
+    width: 70%;
+  }
+  .tagline{
+  font-size: 1em;
   }
 }
 
