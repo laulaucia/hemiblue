@@ -36,9 +36,9 @@ h2{
     width: 40%;
     margin-top: -120px;
   }
-/*  .tagline{
+  .tagline{
   font-size: 1.7em;
-  }*/
+  }
 }
 
 @media only screen and (max-width : 600px) {
@@ -48,9 +48,9 @@ h2{
   #logo {
     width: 70%;
   }
-/*  .tagline{
+  .tagline{
   font-size: 1em;
-  }*/
+  }
 }
 
 .icon-block {
