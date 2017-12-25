@@ -2,6 +2,11 @@ p {
   line-height: 2rem;
 }
 
+h2{
+  font-weight: 500;
+  text-shadow: 3px 3px midnightblue;
+}
+
 .ilimage{
   border-radius: 20px;
 }
