@@ -1,11 +1,3 @@
-p {
-  line-height: 2rem;
-}
-
-h2{
-  font-weight: 500;
-  text-shadow: 3px 3px midnightblue;
-}
 
 .ilimage{
   border-radius: 20px;
@@ -86,6 +78,12 @@ header section:first-child{
   background-size: cover;
 }
 
+header section:last-child div{
+  border:  solid #1f2273;
+  padding: 10px 0;
+  border-style: double none;
+}
+
 h3{
   text-shadow: 3px 3px midnightblue;
   color: white;
@@ -99,8 +97,8 @@ header img {
   header {
     min-height: 100vh;
     display: grid;
-    grid-template-columns: 3fr 4fr;
-    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
     align-items: center;
   }
   header section {
