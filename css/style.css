@@ -63,3 +63,49 @@ h2{
 footer.page-footer {
   margin: 0;
 }
+
+/* redesign styles */
+* {
+  font-family: 'verdana', 'sans-serif';
+  color: #1f2273;
+}
+body {
+  margin: 0;
+}
+header {
+  text-align: center;
+}
+
+header section {
+  padding: 10px;
+}
+
+header section:first-child{
+  background:
+    url('http://hemiblue.com/images/buds.jpeg');
+  background-size: cover;
+}
+
+h3{
+  text-shadow: 3px 3px midnightblue;
+  color: white;
+}
+
+header img {
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 650px) {
+  header {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    grid-gap: 20px;
+    align-items: center;
+  }
+  header section {
+    height: 100vh;
+    align-items: center;
+    display: flex;
+  }
+}
