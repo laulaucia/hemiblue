@@ -30,7 +30,7 @@ header img {
   border-radius: 10px;
 }
 .pick-your-own {
-  background: #f2e6dc;
+  background: linear-gradient(#f2e6dc, #fff);
 }
 .portfolio-holder{
   clear: both;
