@@ -78,7 +78,7 @@ header section, .media, .pick-your-own {
 
 header section:first-child, .products{
   background:
-    url('http://hemiblue.com/images/buds.jpeg');
+    url('../images/buds.jpeg');
   background-size: cover;
 }
 
