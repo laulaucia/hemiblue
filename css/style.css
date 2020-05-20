@@ -29,6 +29,9 @@ header img {
 .splide__slide__container {
   border-radius: 10px;
 }
+.pick-your-own {
+  background: #f2e6dc;
+}
 .portfolio-holder{
   clear: both;
   text-align: center;
