@@ -64,24 +64,22 @@ footer.page-footer {
 body {
   margin: 0;
 }
+
+p {
+  font-size: 18px;
+}
 header {
   text-align: center;
 }
 
-header section {
+header section, .media, .pick-your-own {
   padding: 10px;
 }
 
-header section:first-child{
+header section:first-child, .products{
   background:
     url('http://hemiblue.com/images/buds.jpeg');
   background-size: cover;
-}
-
-header section:last-child div{
-  border:  solid #1f2273;
-  padding: 10px 0;
-  border-style: double none;
 }
 
 h3{
@@ -93,8 +91,12 @@ header img {
   max-width: 100%;
 }
 
+.splide__slide__container {
+  border-radius: 10px;
+}
+
 @media only screen and (min-width: 650px) {
-  header {
+  header, .pick-your-own {
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
