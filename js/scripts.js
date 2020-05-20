@@ -1,18 +1,7 @@
-// (function($){
-//   $(function(){
-
-//     $('.button-collapse').sideNav();
-//     $('.parallax').parallax();
-    
-    
-
-//   }); // end of document ready
-// })(jQuery); // end of jQuery name space
 
 document.addEventListener( 'DOMContentLoaded', function () {
 
 var secondarySlider = new Splide( '#secondary-slider', {
-	rewind      : true,
 	fixedWidth  : 100,
 	fixedHeight : 64,
 	isNavigation: true,
@@ -20,6 +9,8 @@ var secondarySlider = new Splide( '#secondary-slider', {
 	focus       : 'center',
 	pagination  : false,
 	cover       : true,
+	pauseOnFocus: false,
+        autoplay: true,
 	breakpoints : {
 		'600': {
 			fixedWidth  : 66,
