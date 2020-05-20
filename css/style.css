@@ -33,17 +33,6 @@
   }
 }
 
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
-}
-
 /* redesign styles */
 * {
   font-family: 'verdana', 'sans-serif';
@@ -98,6 +87,10 @@ header img {
 
 .row-2{
   grid-row: span 2 / auto;
+}
+
+.column-2{
+  grid-column: span 2 / auto;
 }
 
 @media only screen and (min-width: 650px) {
