@@ -29,6 +29,9 @@ header img {
 .splide__slide__container {
   border-radius: 10px;
 }
+#secondary-slider {
+  background: #f2e6dc;
+}
 .pick-your-own {
   background: linear-gradient(#f2e6dc, #fff);
 }
