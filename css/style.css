@@ -35,7 +35,6 @@ header img {
 .pick-your-own {
   background: linear-gradient(#f2e6dc, #fff);
   padding: 20px;
-  grid-gap: 20px;
 }
 .portfolio-holder{
   clear: both;
@@ -62,11 +61,17 @@ header img {
     grid-gap: 10px;
     align-items: center;
   }
+  .pick-your-own {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
   .media {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
+    grid-gap: 20px;
   }
   header section {
     height: 100vh;
