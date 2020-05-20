@@ -8,10 +8,13 @@ body {
 p {
   font-size: 18px;
 }
+header, #secondary-slider {
+  background: #f2e6dc;
+}
 header {
   text-align: center;
 }
-header section, .media, .pick-your-own, .products {
+header section, .media, .products {
   padding: 10px;
 }
 header section:first-child{
@@ -29,11 +32,10 @@ header img {
 .splide__slide__container {
   border-radius: 10px;
 }
-#secondary-slider {
-  background: #f2e6dc;
-}
 .pick-your-own {
   background: linear-gradient(#f2e6dc, #fff);
+  padding: 20px;
+  grid-gap: 20px;
 }
 .portfolio-holder{
   clear: both;
