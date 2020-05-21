@@ -81,6 +81,9 @@ header img {
     justify-content: center;
     grid-gap: 20px;
   }
+  .pick-your-own .media {
+    grid-gap: 3px;
+  }
   header section {
     height: 100vh;
     align-items: center;
