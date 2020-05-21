@@ -14,7 +14,7 @@ header, #secondary-slider {
 header {
   text-align: center;
 }
-header section, .media, .products {
+header section, .media{
   padding: 10px;
 }
 header section:first-child{
