@@ -88,6 +88,12 @@ header img {
     grid-gap: 15px;
   }
 }
+
+@media only screen and (min-width: 1050px) {
+  .modal-content .modalgrid {
+    grid-template-columns: 3fr 4fr 3fr;
+  }
+}
 /* modal stuff */
 .modal {
   display: none; 
@@ -104,11 +110,10 @@ header img {
 
 .modal-content {
   background-color: #fff;
-  margin: 15% auto; 
+  margin: 10% auto; 
   padding: 20px;
   border: 1px solid #888;
   max-width: 80vw;
-  max-height: 85vh;
   text-align: center;
 }
 
