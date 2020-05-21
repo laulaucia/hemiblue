@@ -94,6 +94,10 @@ header img {
   .modal-content .modalgrid {
     grid-template-columns: 3fr 4fr 3fr;
   }
+  header {
+    grid-template-columns: 4fr 3fr;
+    grid-gap: 20px;
+  }
 }
 /* modal stuff */
 .modal {
