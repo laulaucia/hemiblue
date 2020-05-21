@@ -54,7 +54,7 @@ header img {
   grid-column: span 2 / auto;
 }
 @media only screen and (min-width: 650px) {
-  header, .pick-your-own {
+  header {
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
