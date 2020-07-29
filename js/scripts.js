@@ -35,8 +35,8 @@ primarySlider.sync( secondarySlider ).mount();
     
     var modal = document.getElementById("myModal");
     var span = document.getElementsByClassName("close")[0];
-    
-    setTimeout(function(){ modal.style.display = "block";}, 3000);
+//     uncomment to set modal again
+//     setTimeout(function(){ modal.style.display = "block";}, 3000);
     
         // When the user clicks on <span> (x), close the modal
     span.onclick = function() {
